@@ -1,0 +1,22 @@
+env puis export puis env
+diff in outout + exit status;
+
+bash-3.2$ export var="  truc"; echo $var
+truc
+minishell $> echo $var
+  truc
+
+bash-3.2$ .//
+bash: .//: is a directory
+bash-3.2$ echo $?
+126
+
+minishell $> .//
+command not found
+minishell $> echo $?
+127
+minishell $> 
+
+---->cat <Makefile >$var
+----->ctrl+\ in heredoc
+
